@@ -44,7 +44,7 @@ function BotItem({ bot, clickHandler, handleDelete }) {
             <div className="ui center aligned segment basic">
               <button
                 title="Delete this bot"
-                className="ui mini red button"
+                className="delete-btn"
                 onClick={(e) => {
                   e.stopPropagation();
                   handleDelete(bot);
