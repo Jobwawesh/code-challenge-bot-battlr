@@ -1,17 +1,24 @@
 import React from "react";
 import BotItem from "./BotItem";
 
-function BotCollection({ collection, clickHandler, handleDelete }) {
+function YourBotArmy({ collection, clickHandler, handeleDelete }) {
+
   return (
     <div className="">
-      {"Click on a bot to add it to your army."}
       <div className="">
-        {collection.map((bot) => (
-          <BotCard key={bot.id} bot={bot} clickHandler={clickHandler} handleDelete={handleDelete} />
-        ))}
+        {"Click on a Bot on the bot collection to enlist it to your army."}
+        <div className="">
+          {collection.map((bot) => (
+            <BotItem 
+            key={bot.id}
+            bot={bot} 
+            clickHandler={clickHandler}
+            handleDelete={handeleDelete} />
+          ))}
+        </div>
       </div>
     </div>
   );
 }
 
-export default BotCollection;
+export default YourBotArmy;

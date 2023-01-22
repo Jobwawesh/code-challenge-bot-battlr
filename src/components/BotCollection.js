@@ -2,13 +2,14 @@ import React from "react";
 import BotItem from "./BotItem";
 
 function BotCollection({ collection, clickHandler, handleDelete }) {
-  // Your code here
+
+    
   return (
     <div className="">
       {"Bot Collection click on a bot to add it to your army."}
       <div className="">
         {collection.map((bot) => (
-          <BotCard 
+          <BotItem   
           key={bot.id} 
           bot={bot} 
           clickHandler={clickHandler} 
