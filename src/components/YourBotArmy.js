@@ -5,6 +5,7 @@ function YourBotArmy({ collection, clickHandler, handeleDelete }) {
 
   return (
     <div className="">
+        <h1> BOT BATTLR</h1>
       <div className="">
         {"Click on a Bot on the bot collection to enlist it to your army."}
         <div className="">

@@ -36,3 +36,17 @@
     transform: rotate(360deg);
   }
 }
+
+h1{
+  background-color: black;
+  color: rgb(14, 212, 14);
+}
+.botColl{
+  display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    padding: 5%;
+}
+.container{
+  border: solid;
+}
+

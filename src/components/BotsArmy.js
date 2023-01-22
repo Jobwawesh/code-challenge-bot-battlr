@@ -19,13 +19,13 @@ function BotsArmy(){
     }
 
     useEffect(() => {
-        fetch('https://json-server-vercel-zeta.vercel.app/bots')
+        fetch(URL)
         .then((res) => res.json())
         .then((data) => setBots(data));
     }, [])
 
     function handleDelete(bot) {
-        fetch(`https://json-server-vercel-zeta.vercel.app/bots${bot.id}`, {
+        fetch(`URL${bot.id}`, {
           method: "DELETE",
         }).then(() => {
             setBots((bots) => bots.filter((it) => it.id !== bot.id))
