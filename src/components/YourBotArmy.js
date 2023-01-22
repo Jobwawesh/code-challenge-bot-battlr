@@ -7,8 +7,8 @@ function YourBotArmy({ collection, clickHandler, handeleDelete }) {
     <div className="">
         <h1> BOT BATTLR</h1>
       <div className="">
-        {"Click on a Bot on the bot collection to enlist it to your army."}
-        <div className="">
+        <h2>Your selected Bot Army."</h2>
+        <div className="yourBot">
           {collection.map((bot) => (
             <BotItem 
             key={bot.id}

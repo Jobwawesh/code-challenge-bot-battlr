@@ -6,7 +6,7 @@ function BotCollection({ collection, clickHandler, handleDelete }) {
 
   return (
     <div className="">
-      {"Bot Collection click on a bot to add it to your army."}
+      <h2>Bot Collection-click on a bot to add it to your army.</h2>
       <div className="botColl">
         {collection.map((bot) => (
           <BotItem   

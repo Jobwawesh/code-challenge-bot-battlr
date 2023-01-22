@@ -49,4 +49,9 @@ h1{
 .container{
   border: solid;
 }
+.yourBot{
+  display: grid;
+    grid-template-columns: 20% 20% 20% 20% 20%;
+    padding: 5%;
+}
 

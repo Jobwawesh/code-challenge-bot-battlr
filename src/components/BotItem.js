@@ -48,9 +48,8 @@ function BotItem({ bot, clickHandler, handleDelete }) {
                 onClick={(e) => {
                   e.stopPropagation();
                   handleDelete(bot);
-                }}
-              >
-                x
+                }}>
+                delete
               </button>
             </div>
           </span>
