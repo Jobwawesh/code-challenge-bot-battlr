@@ -12,7 +12,7 @@ const botType = {
 function BotItem({ bot, clickHandler, handleDelete }) {
   return (
     <div>
-      <div className="ui-card" key={bot.id} onClick={() => clickHandler(bot)}>
+      <div className="bot-card" key={bot.id} onClick={() => clickHandler(bot)}>
         <div className="image">
           <img alt="bot" src={bot.avatar_url} />
         </div>
