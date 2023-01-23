@@ -8,7 +8,7 @@ can custom build your own Bot Army! This is our app:
 
 ## Screenshot
 
-<img src="./bot-battlr">
+<img src="bot-battlr.png">
 
 ## Development Requirement
 - Visual StudioCode.
