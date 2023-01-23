@@ -19,7 +19,7 @@ function BotItem({ bot, clickHandler, handleDelete }) {
         <div>
           <div>
             {bot.name}
-            <i className={botType[bot.bot_class]} />
+             {botType[bot.bot_class]}
           </div>
           <div>
             <small>{bot.catchphrase.substring(0, 38)}</small>
