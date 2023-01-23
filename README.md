@@ -1,70 +1,57 @@
-# Getting Started with Create React App
+# BOT BATTLR
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Description
+Welcome to **Bot Battlr**, the one and only spot in the known universe where you
+can custom build your own Bot Army! This is our app:
 
-## Available Scripts
+  Cheers!
 
-In the project directory, you can run:
+## Screenshot
 
-### `npm start`
+<img src="./bot-battlr">
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Development Requirement
+- Visual StudioCode.
+- Live server extension.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Development Installattion
+To get the code .
 
-### `npm test`
+## project Set-up
+### Option 1 (live link)
+If you want to see the app running in real-time directly, you can just click on this link:
+https://code-challenge-bank-of-flatiron-drab.vercel.app/
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Option 2 (Cloning the repository)
+1. Cloning the repository:
+press git clone https://github.com/Jobwawesh/code-challenge-bot-battlr on your terminal
+2. Move to the folder and install requirements
+3. `cd code-challenge-bot-battlr`
+4. Open the directory with your preferd application(prefereably VScode)
+5. Make sure you `install npm` for the required dependancies to be added.
+6. Open the application on your prefered browser.
+7. Run `npm start` to view the app in your prefered browser.
 
-### `npm run build`
+## Running the Application and Features
+### User Story
+- This Application works with JSON data that has been created by the author and deployed remotely using https://json-server-vercel-zeta.vercel.app/bots as an API.
+- The first thing you will notice when you load the page is a Bot Battlr app with all the neccesary details needed 
+- The app allows you to choose your bot army in that when you click on a bot in the full bot collection you are interested in, you can add them to your own personal army.
+- Clicking a  bot in your selected army will remove and bring it back to the full collection in case you are no longer interested in that particular bot.
+- In case you want to delete a bot entirely in the bot collection,  you can click the red delete button and it will disappear completely.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+# THERE YOU GO! YOU CAN NOW ACTIVELY ENGAGE WITH THE APPLICATION. HAVE FUN!
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Technology Used
+* React
+* JSON server
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Author
+Job Waweru
 
-### `npm run eject`
+## Contact Information
+If you have any question or contributions, please email me at
+[jobnjunge15@gmail.com]
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Lincense
+Mozilla Public License Version 2.0
