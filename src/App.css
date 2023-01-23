@@ -39,12 +39,13 @@
 
 h1{
   background-color: black;
-  color: rgb(14, 212, 14);
+  color: bisque;
 }
 .botColl{
   display: grid;
     grid-template-columns: 20% 20% 20% 20% 20%;
     padding: 5%;
+    border: solid;
 }
 .container{
   border: solid;
@@ -58,5 +59,10 @@ h1{
 .delete-btn{
   background-color: red;
   color: white;
+}
+.ui-card{
+  border: solid;
+  border-radius: 10%;
+  padding: 10%;
 }
 
