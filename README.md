@@ -20,7 +20,7 @@ To get the code .
 ## project Set-up
 ### Option 1 (live link)
 If you want to see the app running in real-time directly, you can just click on this link:
-https://code-challenge-bank-of-flatiron-drab.vercel.app/
+https://code-challenge-bot-battlr-ten.vercel.app/
 
 ### Option 2 (Cloning the repository)
 1. Cloning the repository:
